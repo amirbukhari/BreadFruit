@@ -34,9 +34,27 @@ background: url(../images/samples/city2.jpg) no-repeat center center fixed;
 .section{
 
 }
-h1,h2{
-
+.index-content{
+	display:block;
+margin:0 auto;
+margin-top:4px;
+position: relative;
+  top: 30%;
+  transform: translateY(-30%);
+width:50%;
+text-align:center;	
+/*background-color:rgba(240,240,240,0.7);
+	*/
+}
+.index-content h1,h2{
 color:lightblue;
+}
+.index-content h1{
+font-size:4em;
+}
+.index-content p{
+font-size:2em;
+color:white;
 }
 footer{
 text-align:center;
