@@ -12,24 +12,32 @@ margin:0 auto;
 position: relative;
   top: 30%;
   transform: translateY(-30%);
+  width:60%;
+  min-width:300px;
 }
 #top-banner2{
-background: url(../images/truck.jpg) no-repeat center center fixed; 
+background: url(../images/samples/city.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- 
+ height:500px;
   }
   #top-banner3{
-background: url(../images/trees.jpg) no-repeat center center fixed; 
+background: url(../images/samples/city2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height:500px;
   }
 .section{
 
 }
-h2{
-margin-top:0;}
+h1,h2{
+
+color:lightblue;
+}
+footer{
+text-align:center;
+}
