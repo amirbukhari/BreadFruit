@@ -31,9 +31,7 @@ background: url(../images/samples/city2.jpg) no-repeat center center fixed;
   background-size: cover;
   height:500px;
   }
-.section{
 
-}
 .index-content{
 	display:block;
 margin:0 auto;
@@ -56,6 +54,10 @@ font-size:4em;
 font-size:2em;
 color:white;
 }
+
+
+
+
 footer{
 text-align:center;
 }
