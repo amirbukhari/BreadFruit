@@ -18,3 +18,8 @@ background: url(../images/breadfruit.jpg) no-repeat center center fixed;
 .team-section ,.donate-section{
 	background-color:#C3EED9;
 }
+.team-section img{
+margin:0 auto;
+width:80%;
+border: 4px;
+}
