@@ -3849,7 +3849,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	}
 }
 .navbar-default {
-	background-color:black;/*#ECE28F;*/
+	background-color:#000;/*#ECE28F; black */
 	border-color:#ACFF5F;
 }
 .navbar-default .navbar-brand {

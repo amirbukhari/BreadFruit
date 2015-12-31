@@ -13,20 +13,31 @@ background: url(../images/breadfruit.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
   }
-.team-section ,.donate-section{
+.recipe-section ,.donate-section{
 	background-color:#C3EED9;
 }
 #index-welcome
 {
-	background-color:rgba(255,255,255,0.5);
+	background-color:rgba(195,238,217,0.9);
 	padding:15px;
+	margin-top:10px;
 }
 section{
 	color:black;
+	  font-family: 'Lato', serif;
+      
+
 }
 .team-section img{
 margin:0 auto;
 width:80%;
-border: 4px;
+  border:10px solid #40B068;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
 }
 
+.team-section img:hover{
+	border-color:lightgreen;
+
+}
