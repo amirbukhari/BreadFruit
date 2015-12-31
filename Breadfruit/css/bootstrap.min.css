@@ -3849,7 +3849,8 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	}
 }
 .navbar-default {
-	background-color:#000;/*#ECE28F; black */
+	
+	background-color:rgba(0,0,0,0.4);/*#ECE28F; black */
 	border-color:#ACFF5F;
 }
 .navbar-default .navbar-brand {
