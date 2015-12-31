@@ -1,12 +1,10 @@
-.navbar-brand
-{
-	padding:0 0 0px 15px;
+.navbar-brand {
+  padding: 0px 15px; 
 }
-.navbar-brand img
-{
-	padding:0px 5px 0px 0px;
-	height:100%;
-	display:inline ;
+.navbar-brand>img {
+  height: 100%;
+  padding: 0px 5px 0px 0px; 
+  display:inline;
 }
 .index-section{
 background: url(../images/breadfruit.jpg) no-repeat center center fixed; 
@@ -15,11 +13,31 @@ background: url(../images/breadfruit.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
   }
-.team-section ,.donate-section{
+.recipe-section ,.donate-section{
 	background-color:#C3EED9;
+}
+#index-welcome
+{
+	background-color:rgba(195,238,217,0.9);
+	padding:15px;
+	margin-top:10px;
+}
+section{
+	color:black;
+	  font-family: 'Lato', serif;
+      
+
 }
 .team-section img{
 margin:0 auto;
 width:80%;
-border: 4px;
+  border:10px solid #40B068;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+
+.team-section img:hover{
+	border-color:lightgreen;
+
 }
