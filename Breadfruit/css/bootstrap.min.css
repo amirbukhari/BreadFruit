@@ -3851,7 +3851,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 .navbar-default {
 	
 	background-color:rgba(0,0,0,0.1);/*#ECE28F; black */
-	border-color:#ACFF5F;
+	border-color:rgba(67,100,37,0.1)
 }
 .navbar-default .navbar-brand {
 	color:#fff;

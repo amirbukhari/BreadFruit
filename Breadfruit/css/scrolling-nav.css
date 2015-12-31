@@ -24,7 +24,7 @@ html {
     .top-nav-collapse {
         padding: 0;
 		background-color:#000;/*#ECE28F; black */
-		
+		border-color:#ACFF5F;
 	}
 	.nav{
 	float:right;
