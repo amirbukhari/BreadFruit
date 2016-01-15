@@ -13,6 +13,9 @@ background: url(../images/breadfruit.jpg) no-repeat center center fixed;
   -o-background-size: cover;
   background-size: cover;
   }
+.index-section h1,.recipe-section h1,.donate-section h1{
+color:black;
+}
 .recipe-section ,.donate-section{
 	background-color:#C3EED9;
 }
@@ -22,11 +25,21 @@ background: url(../images/breadfruit.jpg) no-repeat center center fixed;
 	padding:15px;
 	margin-top:10px;
 }
+h1{
+color:lightgrey;
+font-family: 'Oswald', serif;
+}
 section{
 	color:black;
 	  font-family: 'Lato', serif;
       
 
+}
+#index-pictures{
+margin-top:3em;
+}
+#index-pictures img{
+border:2px solid #ACFF5F;
 }
 .team-section img{
 margin:0 auto;

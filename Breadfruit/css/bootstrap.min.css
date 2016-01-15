@@ -3383,10 +3383,10 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	background-color:#eee
 }
 .nav>li.disabled>a {
-	color:#777
+	color:#90D492;
 }
 .nav>li.disabled>a:focus,.nav>li.disabled>a:hover {
-	color:#777;
+	color:#90D492;
 	text-decoration:none;
 	cursor:not-allowed;
 	background-color:transparent
@@ -3861,10 +3861,10 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	background-color:transparent
 }
 .navbar-default .navbar-text {
-	color:#777
+	color:#90D492
 }
 .navbar-default .navbar-nav>li>a {
-	color:#777
+	color:#90D492
 }
 .navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover {
 	color:#333;
@@ -3896,7 +3896,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 @media (max-width:767px) {
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-		color:#777
+		color:#90D492
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
 		color:#333;
@@ -3912,13 +3912,13 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 	}
 }
 .navbar-default .navbar-link {
-	color:#777
+	color:#90D492
 }
 .navbar-default .navbar-link:hover {
 	color:#333
 }
 .navbar-default .btn-link {
-	color:#777
+	color:#90D492
 }
 .navbar-default .btn-link:focus,.navbar-default .btn-link:hover {
 	color:#333
