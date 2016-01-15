@@ -7,7 +7,10 @@
   display:inline;
 }
 .index-section{
-background: url(../images/breadfruit.jpg) no-repeat center center fixed; 
+background: linear-gradient(
+		rgba(0,0,0,0.3), 
+		rgba(195,238,217,0.9)
+	  ),url(../images/breadfruit.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,11 +22,11 @@ color:black;
 .recipe-section ,.donate-section{
 	background-color:#C3EED9;
 }
-#index-welcome
+.index-section:after
 {
 	background-color:rgba(195,238,217,0.9);
-	padding:15px;
-	margin-top:10px;
+	/*padding:15px;
+	margin-top:10px;*/
 }
 h1{
 color:lightgrey;
