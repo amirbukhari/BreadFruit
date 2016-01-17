@@ -8,7 +8,7 @@
 }
 .index-section{
 background: linear-gradient(
-		rgba(0,0,0,0.3), 
+		rgba(255,255,255,0.1), 
 		rgba(195,238,217,0.9)
 	  ),url(../images/breadfruit.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -22,24 +22,17 @@ color:black;
 .recipe-section ,.donate-section{
 	background-color:#C3EED9;
 }
-.index-section:after
+
+.jumbotron
 {
 	background-color:rgba(195,238,217,0.9);
-	/*padding:15px;
-	margin-top:10px;*/
 }
-h1{
-color:lightgrey;
-font-family: 'Oswald', serif;
-}
+
 section{
 	color:black;
-	  font-family: 'Lato', serif;
-      
-
+	 
 }
 #index-pictures{
-margin-top:3em;
 margin-bottom:3em;
 }
 #index-pictures img{
