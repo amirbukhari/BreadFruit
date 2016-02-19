@@ -1,5 +1,5 @@
 .navbar-brand {
-  padding: 0px 15px; 
+  
 }
 .navbar-brand>img {
   height: 100%;
@@ -22,7 +22,11 @@ color:black;
 .recipe-section ,.donate-section{
 	background-color:#C3EED9;
 }
+.recipe-section
+{
+padding-bottom:3em;	
 
+}
 .jumbotron
 {
 	background-color:rgba(195,238,217,0.9);
@@ -39,6 +43,76 @@ margin-top:1em;
 #index-pictures img{
 border:2px solid #ACFF5F;
 }
+#index-info
+{
+	background-color:rgba(195,238,217,0.9);
+	margin-top:1em;
+	padding-top:10px;
+	padding-bottom:10px;
+	-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+
+#banner-carousel 
+{
+	padding-top:0.5em;
+	background-color:white;
+	margin-bottom:2em;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+}
+#banner-carousel-main
+{
+	padding-left:0.5em;
+	padding-right:0;
+}
+.carousel-caption
+{
+	background-color:rgba(0,0,0,0.5);
+}
+#banner-carousel-side img
+{
+	margin-bottom:0.5em;
+}
+#banner-carousel-side 
+{
+	padding-right:0.5em;
+	padding-left:0.5em;
+}
+#banner-carousel-side-last img
+{
+	
+	margin-bottom:0.5em;
+}
+.banner-carousel-side-active 
+{
+	border:solid 4px #3378b7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .team-section img{
 margin:0 auto;
 width:80%;
@@ -54,3 +128,9 @@ width:80%;
 }
 
 #list {text-align: center;}
+.about-section h1{
+text-align:center;
+}
+.recipe-section h1{
+text-align:center;
+}
