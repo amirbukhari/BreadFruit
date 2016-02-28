@@ -31,7 +31,16 @@ padding-bottom:3em;
 {
 	background-color:rgba(195,238,217,0.9);
 }
-
+.nav-logo-parent{
+position:relative;
+}
+.nav-logo{
+display:inline;
+margin:0 auto;
+position:absolute;
+left: 42%; top:-75%;
+width:15%;
+}
 section{
 	color:black;
 	 
