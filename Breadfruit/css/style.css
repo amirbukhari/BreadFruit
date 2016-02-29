@@ -52,6 +52,14 @@ margin-top:1em;
 #index-pictures img{
 border:2px solid #ACFF5F;
 }
+#index-title
+{
+	font-family:'Lora';
+	font-size:4em;
+	font-weight:700;
+	color:white;
+	text-shadow: -1px 2px #264721;
+}
 #index-info
 {
 	background-color:rgba(195,238,217,0.9);
