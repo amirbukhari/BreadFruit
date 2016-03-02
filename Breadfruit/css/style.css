@@ -38,7 +38,7 @@ position:relative;
 display:inline;
 margin:0 auto;
 position:absolute;
-left: 42%; top:-75%;
+left: 42.5%; top:-75%;
 width:15%;
 }
 section{
@@ -60,6 +60,9 @@ border:2px solid #ACFF5F;
 	color:white;
 	text-shadow: -1px 2px #264721;
 }
+h1{
+font-family:'Lora';
+}
 #index-info
 {
 	background-color:rgba(195,238,217,0.9);
@@ -71,7 +74,10 @@ border:2px solid #ACFF5F;
 border-radius: 10px;
 }
 
-
+#index-info-inner{ 
+width:80%;
+margin:0 auto;
+}
 #banner-carousel 
 {
 	padding-top:0.5em;
@@ -109,7 +115,10 @@ border-radius: 10px;
 	border:solid 4px #3378b7;
 }
 
-
+#about-images
+{
+	margin-bottom:2.5em;
+}
 
 
 
