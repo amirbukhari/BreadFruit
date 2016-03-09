@@ -5,8 +5,8 @@ body {
 	/*font-family:'Lato';*/
 }
 p{
-font-size:1.2em;
-color:#555555;
+	font-size:1.2em;
+	color:#555555;
 }
 html {
     width: 100%;
@@ -14,27 +14,25 @@ html {
 }
 
 
-@media(min-width:767px) {
 
-    .navbar {
+
+.navbar {
 	
 	
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-		
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-		background-color:#000;/*#ECE28F; black */
-		border-color:#ACFF5F;
-	}
-	.nav{
-	float:right;
-	}
+	padding: 20px 0;
+	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+	transition: background .5s ease-in-out,padding .5s ease-in-out;
+	
 }
+
+.top-nav-collapse {
+	padding: 0;
+	background-color:#000;/*#ECE28F; black */
+	border-color:#ACFF5F;
+}
+
+
 
 .index-section{
 	min-height: 100%;
@@ -72,3 +70,4 @@ html {
 	padding-top: 150px;
 	text-align: center;
 }
+
