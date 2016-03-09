@@ -103,7 +103,7 @@ margin:0 auto;
 }
 #banner-carousel 
 {
-	padding:0.5em;
+	padding-top:0.5em;
 	background-color:white;
 	margin-bottom:2em;
 	margin-left:auto;
@@ -112,9 +112,8 @@ margin:0 auto;
 }
 #banner-carousel-main
 {
-	/*padding-left:0.5em;
-	padding-right:0;*/
-	padding:0;
+	padding-left:0.5em;
+	padding-right:0;
 }
 .carousel-caption
 {
@@ -286,22 +285,4 @@ p {
 }
 .thin-end {
   border-bottom: 1px solid black;
-}
-
-
-@media(min-width:767px) {
-	
-	.nav{
-		float:right;
-	}
-}
-@media(max-width:360px) {
-	.navbar-brand {
-		font-size:1.2em;
-	}
-	
-	#index-title
-	{
-		font-size: 2em;
-	}
 }
