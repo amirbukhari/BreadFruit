@@ -294,6 +294,7 @@ p {
 	.nav{
 		float:right;
 	}
+
 }
 @media(max-width:360px) {
 	.navbar-brand {
@@ -303,5 +304,28 @@ p {
 	#index-title
 	{
 		font-size: 2em;
+	}
+}
+@media(max-width:767px) {
+	.team-section{
+		margin-bottom:2em;
+	}
+	.nav{
+	float:left;
+	}
+}
+@media(max-width:991px) {
+	.nav-logo{
+		display:inline;
+		margin:0 auto;
+		position:absolute;
+		left: 42.5%; top:-10%;
+		width:15%;
+	}
+}
+@media(min-width:1346px) {
+	.team-section h3
+	{
+		font-size:1.5em;
 	}
 }
